@@ -7,6 +7,7 @@ namespace HelloCS
 {
     public class Program{
         public static async Task Main(string[] args){
+            var x = "dfsdfsdfs";
             var link = args.Length > 0 ? args[0] : throw new ArgumentNullException();
             //var x = link ?? throw new ArgumentException("What's wrong with u? URL can't be null.");
             if (link == null) {
